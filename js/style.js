@@ -1,0 +1,15 @@
+$(function(){
+  $('.gift-1').click(function(e){
+    $('.content').addClass('show')
+    $('.bg-black').addClass('show-bg')
+  })
+  $('.gift-2').click(function(e){
+    $('.video-mp4').addClass('show')
+    $('.bg-black').addClass('show-bg')
+  })
+  $('.bg-black').click(function(e){
+    $(".content").removeClass('show');
+    $(".video-mp4").removeClass('show');
+    $(".bg-black").removeClass('show-bg');
+  })
+})
